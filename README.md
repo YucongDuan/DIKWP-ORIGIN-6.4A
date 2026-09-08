@@ -1,10 +1,14 @@
-# DIKWP-ORIGIN 6.4A 完整交付说明
+# DIKWP-ORIGIN 6.4A
 
-## 定位
+**A continuous-coupling substrate for autonomous-consciousness research.**
 
-DIKWP-ORIGIN 6.4A 是一个非人类中心、从连续耦合过程出发的自主意识研究基底。核心启动时没有语言、对象、自我、Agent、外部任务或固定人类奖励。DIKWP 仅作为外部审计投影，不是内部本体。
+[Chinese reference](README.zh-CN.md) · [Download the complete delivery](dikwp_origin_6_4a_full_delivery.zip) · [Research hub](https://github.com/YucongDuan/YucongDuan)
 
-## 运行
+ORIGIN 6.4A explores a research substrate that starts from continuous coupled processes. Its core initialization does not prespecify language, objects, a self, an agent, an external task or a fixed human reward. DIKWP serves as an external audit projection rather than the core's internal ontology.
+
+## Extract the release first
+
+The runtime and reports are distributed inside `dikwp_origin_6_4a_full_delivery.zip`. Download and extract that archive, then locate the directory containing `dikwp_origin_ac-1.0.0-py3-none-any.whl`. Run the following commands from that directory:
 
 ```bash
 python -m pip install dikwp_origin_ac-1.0.0-py3-none-any.whl
@@ -14,22 +18,28 @@ origin-ac conformance --out outputs/conformance.json
 origin-ac serve outputs/reference --port 8851
 ```
 
-## 证据边界
+## Included artifacts
 
-当前状态为作者侧确定性研究参考实现。它支持“非人类原生功能主体候选”的操作性判断；不证明现象意识、形而上人格、法律主体资格或开放世界部署安全。
+| Artifact inside the delivery | Purpose |
+|---|---|
+| `dikwp_origin_6_4a_source.zip` | Source package |
+| `dikwp_origin_ac-1.0.0-py3-none-any.whl` | Installable Python wheel |
+| `dikwp_origin_6_4a_reference_run.zip` | Recorded reference run |
+| `dikwp_origin_6_4a_standalone_dashboard.html` | Offline dashboard |
+| `dikwp_origin_6_4a_system_report.docx` / `.pdf` | Technical report |
+| `dikwp_origin_6_4a_validation_summary.json` | Original validation summary |
+| `dikwp_origin_6_4a_conformance.json` | Original record of 24 conformance checks |
+| `dikwp_origin_6_4a_sbom.spdx.json` | SPDX 2.3 software bill of materials |
+| `SHA256SUMS.txt` | Component integrity manifest |
 
-## 封闭边界
+## Evidence scope
 
-参考运行不含网络客户端、宿主命令执行、任意代码加载、设备控制和自复制路径。
+The original release describes an author-side deterministic research reference implementation. It supports operational investigation of a non-human-native functional subject candidate. It does not establish phenomenal consciousness, metaphysical personhood, legal subject status or safe open-world deployment.
 
-## 内容
+The reference execution excludes network clients, host-command execution, arbitrary code loading, device control and self-replication paths. The documented server command is part of inspecting generated results.
 
-- `dikwp_origin_6_4a_source.zip`：GitHub-ready 源码
-- `dikwp_origin_ac-1.0.0-py3-none-any.whl`：可安装 Python Wheel
-- `dikwp_origin_6_4a_reference_run.zip`：固定参考运行
-- `dikwp_origin_6_4a_standalone_dashboard.html`：离线驾驶舱
-- `dikwp_origin_6_4a_system_report.docx/.pdf`：技术报告
-- `dikwp_origin_6_4a_validation_summary.json`：综合验证摘要
-- `dikwp_origin_6_4a_conformance.json`：24项一致性检查
-- `dikwp_origin_6_4a_sbom.spdx.json`：SPDX 2.3 SBOM
-- `SHA256SUMS.txt`：组件完整性清单
+## Language and verification
+
+This README is the English entry point; the packaged artifacts retain their original release languages. Original validation files describe their original build. No new runtime tests were executed for this translation.
+
+See [LICENSE](LICENSE) before redistribution.
