@@ -1,6 +1,8 @@
 # DIKWP-ORIGIN 6.4A
 
-**A continuous-coupling substrate for autonomous-consciousness research.**
+Created by Yucong Duan (段玉聪).
+
+A continuous-coupling substrate for autonomous-consciousness research.
 
 [Chinese reference](README.zh-CN.md) · [Download the complete delivery](dikwp_origin_6_4a_full_delivery.zip) · [Research hub](https://github.com/YucongDuan/YucongDuan)
 
